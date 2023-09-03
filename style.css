@@ -13,7 +13,7 @@ body{
 	margin-left:-10px;
 }
 .main{
-	margin:30px;
+	margin:50px;
 }
 .IETE{
 	display:flex;
@@ -127,7 +127,7 @@ body{
 	justify-content:space-around;
 	font-family: sans-serif;
 	flex-wrap:wrap;
-	margin:20px;
+	margin:50px;
 }
 .detail h2{
 	color:#1a3e5b;
