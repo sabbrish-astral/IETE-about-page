@@ -1,0 +1,165 @@
+body{
+	background-color:#e2e4dd;
+}
+.head{
+	color:#1a3e5b;
+	display:flex;
+	justify-content:center;
+	background-color:lightgray;
+	font-size:40px;
+	font-family:sans-serif;
+	margin-top:-10px;
+	margin-right:-10px;
+	margin-left:-10px;
+}
+.main{
+	margin:20px;
+}
+.IETE{
+	display:flex;
+	flex-direction:column;
+	margin-top:-10px;
+	margin:20px;
+}
+.IETE p{
+	line-height:25px;
+	color:#1a3e5b;
+	font-family:sans-serif;
+	animation-duration:2s;
+	animation-name:a;
+	width:100%;
+}
+@keyframes a{
+	from{
+		margin-left:70%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+.img{
+	display:flex;
+	justify-content:center;
+}
+.img img{
+	flex-shrink:0;
+	width:80%;
+	animation-duration:3s;
+	animation-name:image;
+}
+@keyframes image{
+	from{
+		margin-left:70%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+/*.img img:hover{
+	transform:scale(0.7);
+	transition-duration:3sec;
+}*/
+.main{
+	display:flex;
+	justify-content:space-around;
+	flex-shrink:0;
+	flex-wrap:wrap;
+}
+.main p{
+	animation-duration:5s;
+	animation-name:slide;
+}
+@keyframes slide{
+	from{
+		margin-left:70%;
+	}
+	to{
+		margin-left:0%;
+	}
+}
+.chennai{
+	display:flex;
+	flex-direction:column;
+	flex:1;
+	margin:5px;
+}
+.chennai p{
+	line-height:25px;
+	color:#1a3e5b;
+	font-family:sans-serif;
+	width:100%;
+}
+.goals{
+	display:flex;
+	flex-direction:column;
+	flex:1;
+	margin:5px
+}
+.goals p{
+	line-height:20px;
+	color:#1a3e5b;
+	font-family:sans-serif;
+	width:100%;
+}
+.one{
+	display:flex;
+	flex-direction:column;
+	padding-left:10px;
+}
+.two{
+	display:flex;
+	flex-direction:column;
+	padding-left:10px;
+}
+.three{
+	display:flex;
+	flex-direction:column;
+	padding-left:10px;
+}
+.four{
+	display:flex;
+	flex-direction:column;
+	padding-left:10px;
+	
+}
+.detail{
+	display:flex;
+	justify-content:space-around;
+	font-family: sans-serif;
+	flex-wrap:wrap;
+	margin:10px;
+}
+.detail h2{
+	color:#1a3e5b;
+	margin-top:-30px;
+}
+.detail p{
+	margin-top:-5px;
+}
+.detail p:hover{
+	box-shadow:5px 5px 5px 5px #1a3e5b;
+}
+.last{
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	font-family: sans-serif;
+	font-weight:bold;
+	margin:5px;
+}
+.a{
+	display:flex;
+}
+.last p{
+	color:#1a3e5b;
+	padding:1rem;
+	background-color:white;
+	border-radius:2% 2% 2% 2%;
+	box-shadow:5px 5px 5px 5px #1a3e5b;
+}
+.last a{
+	text-decoration:none;
+}
+.a p:hover{
+	color:hotpink;
+}
